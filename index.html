@@ -10,12 +10,16 @@
 
     <title>Portfolio - John Pawlak</title>
 
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
     <link href="css/freelancer.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    
+    
 
   </head>
 
@@ -51,8 +55,17 @@
         <img class="img-fluid mb-5 d-block mx-auto" src="img/profile3.png" alt="">
         <h1 class="text-uppercase mb-0">John Pawlak</h1>
         <hr class="star-light">
-        <h2 class="font-weight-light mb-0">Web Developer - Graphic Artist - Marketing Ninja</h2>
+        <!-- <h2 class="font-weight-light mb-0">Web Developer - Graphic Artist - Marketing Ninja</h2> -->
       </div>
+      <div class = "mb-5"></div>
+      <div id="typed-strings">
+          <p>Thank you for taking your time to check out my Portfolio.</p>
+          <p>I use many different technologies for my projects</p>
+          <p>If I had to summarize my skills:</p>
+          <p>Web Developer - Graphic Artist - Marketing Ninja</p>
+      </div>
+      <span id="typed" class="lead"></span>
+      <!-- <span class="typed-cursor typed-cursor--blink" style="font-size: 4rem">|</span> -->
     </header>
 
     <!-- Portfolio Grid Section -->
@@ -456,6 +469,15 @@
         </div>
       </div>
     </div>
+
+    <!-- Script Typing -->
+    <script>
+        var typed = new Typed('#typed', {
+          stringsElement: '#typed-strings',
+          backSpeed: 15,
+          typeSpeed: 30,
+        });
+      </script>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
