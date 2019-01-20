@@ -173,7 +173,43 @@
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-9">
             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                <p>Image Searcher App</p>
+                <p>Twitch Streaming App</p>
+                <i class="fas fa-search-plus fa-3x"></i>
+                <p>Stream to the World</p>
+              </div>
+            </div>
+            <img class="img-fluid" src="img\portfolio\Portfolio9-950x650.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-10">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                <p>Tetris in JS</p>
+                <i class="fas fa-search-plus fa-3x"></i>
+                <p>Classic Game recreated</p>
+              </div>
+            </div>
+            <img class="img-fluid" src="img\portfolio\Portfolio9-950x650.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-11">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                <p>Giphy App</p>
+                <i class="fas fa-search-plus fa-3x"></i>
+                <p>Gifs and Memes</p>
+              </div>
+            </div>
+            <img class="img-fluid" src="img\portfolio\Portfolio9-950x650.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-12">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                <p>TBD</p>
                 <i class="fas fa-search-plus fa-3x"></i>
                 <p>TBD</p>
               </div>
@@ -742,16 +778,16 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2 class="text-secondary text-uppercase mb-0">Image Searcher App</h2>
+            <h2 class="text-secondary text-uppercase mb-0">Twitch Streaming App</h2>
             <hr class="star-dark mb-5">
             <img class="img-fluid mb-5" src="img/portfolio/Portfolio9-950x650.png" alt="">
             <div class="mb-4">
               <p class="btn btn-secondary btn-sm">#React</p>
               <p class="btn btn-secondary btn-sm">#ReactRouter</p>
               <p class="btn btn-secondary btn-sm">#Node.js</p>
-              <p class="btn btn-secondary btn-sm">#Ajax</p>
-              <p class="btn btn-secondary btn-sm">#FirebaseDB</p>
-              <p class="btn btn-secondary btn-sm">#Ajax</p>
+              <p class="btn btn-secondary btn-sm">#Lodash</p>
+              <p class="btn btn-secondary btn-sm">#JsonServer</p>
+              <p class="btn btn-secondary btn-sm">#RTMPServer</p>
             </div>
             <a class="btn btn-primary btn-lg rounded-pill mb-2" href="https://github-battle-3ebaf.firebaseapp.com/">
               Use App
@@ -760,7 +796,139 @@
               View Source
             </a>
             <hr class="star-dark mb-5">
-            <p class="mb-5 lead">GitHub Battle App Info</p>
+            <p class="mb-5 lead">The Twitch Streaming App clone, is an app built to mimick the concept of Twitch.com a
+              streaming platform site.
+              The main functionality I was creating for this app was to be able to create, show, edit, and delete
+              streams. The user authentication
+              is handled by google oAuth with the new auth2 version. This allows the client to track your userId with
+              the userId of created streams
+              in the JSON Server database. The most impressive functionality is showing the stream. This is done by
+              creating a reference to a video
+              player and attaching an flv to http converter. Afterwards, you can set up an RTMP Server and once that's
+              done the user who is using
+              a streaming program such as OBS, only has to modify their stream output to the RTMP server. Then anyone
+              can watch the stream on the app
+              since the client converts it to http for user consumption. Currently there is no public RTMP server set
+              up, but if you wanted to run
+              this functionality, I would recommend installing and setting up an rtmp server with npm
+              node-media-server. Other than that, the app
+              uses redux to manage state and axios for fetching data from the database.
+            </p>
+            <hr class="star-dark mb-5">
+            <img class="img-fluid mb-5" src="img/portfolio/Portfolio9-950x650.png" alt="">
+            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <i class="fa fa-close"></i>
+              Close Window</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Portfolio Modal 9(6) -->
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-9">
+    <div class="portfolio-modal-dialog bg-white">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-secondary text-uppercase mb-0">Tetris in JS</h2>
+            <hr class="star-dark mb-5">
+            <img class="img-fluid mb-5" src="img/portfolio/Portfolio9-950x650.png" alt="">
+            <div class="mb-4">
+              <p class="btn btn-secondary btn-sm">#Javascript</p>
+              <p class="btn btn-secondary btn-sm">#HTML5</p>
+              <p class="btn btn-secondary btn-sm">#CSS</p>
+              <p class="btn btn-secondary btn-sm">#ES2018</p>
+            </div>
+            <a class="btn btn-primary btn-lg rounded-pill mb-2" href="https://veene.github.io/tetris-in-JS/">
+              Play App
+            </a>
+            <a class="btn btn-primary btn-lg rounded-pill mb-2" href="https://github.com/Veene/tetris-in-JS">
+              View Source
+            </a>
+            <hr class="star-dark mb-5">
+            <p class="mb-5 lead">Tetris Clone using only Javascript and HTML to host canvas.
+            </p>
+            <hr class="star-dark mb-5">
+            <img class="img-fluid mb-5" src="img/portfolio/Portfolio9-950x650.png" alt="">
+            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <i class="fa fa-close"></i>
+              Close Window</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Portfolio Modal 9(6) -->
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-9">
+    <div class="portfolio-modal-dialog bg-white">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-secondary text-uppercase mb-0">Twitch Streaming App</h2>
+            <hr class="star-dark mb-5">
+            <img class="img-fluid mb-5" src="img/portfolio/Portfolio9-950x650.png" alt="">
+            <div class="mb-4">
+              <p class="btn btn-secondary btn-sm">#React</p>
+              <p class="btn btn-secondary btn-sm">#ReactRouter</p>
+              <p class="btn btn-secondary btn-sm">#Node.js</p>
+              <p class="btn btn-secondary btn-sm">#Lodash</p>
+              <p class="btn btn-secondary btn-sm">#JsonServer</p>
+              <p class="btn btn-secondary btn-sm">#RTMPServer</p>
+            </div>
+            <a class="btn btn-primary btn-lg rounded-pill mb-2" href="https://github-battle-3ebaf.firebaseapp.com/">
+              Use App
+            </a>
+            <a class="btn btn-primary btn-lg rounded-pill mb-2" href="https://github.com/Veene/GithubBattleApp">
+              View Source
+            </a>
+            <hr class="star-dark mb-5">
+            <p class="mb-5 lead">INFO
+            </p>
+            <hr class="star-dark mb-5">
+            <img class="img-fluid mb-5" src="img/portfolio/Portfolio9-950x650.png" alt="">
+            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <i class="fa fa-close"></i>
+              Close Window</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Portfolio Modal 9(6) -->
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-9">
+    <div class="portfolio-modal-dialog bg-white">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-secondary text-uppercase mb-0">Twitch Streaming App</h2>
+            <hr class="star-dark mb-5">
+            <img class="img-fluid mb-5" src="img/portfolio/Portfolio9-950x650.png" alt="">
+            <div class="mb-4">
+              <p class="btn btn-secondary btn-sm">#React</p>
+              <p class="btn btn-secondary btn-sm">#ReactRouter</p>
+              <p class="btn btn-secondary btn-sm">#Node.js</p>
+              <p class="btn btn-secondary btn-sm">#Lodash</p>
+              <p class="btn btn-secondary btn-sm">#JsonServer</p>
+              <p class="btn btn-secondary btn-sm">#RTMPServer</p>
+            </div>
+            <a class="btn btn-primary btn-lg rounded-pill mb-2" href="https://github-battle-3ebaf.firebaseapp.com/">
+              Use App
+            </a>
+            <a class="btn btn-primary btn-lg rounded-pill mb-2" href="https://github.com/Veene/GithubBattleApp">
+              View Source
+            </a>
+            <hr class="star-dark mb-5">
+            <p class="mb-5 lead">INFO
+            </p>
             <hr class="star-dark mb-5">
             <img class="img-fluid mb-5" src="img/portfolio/Portfolio9-950x650.png" alt="">
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
